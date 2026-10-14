@@ -60,22 +60,10 @@ app:
     portraits: portraits
     error:
       files:
-        - key: build_char_128_plosis_epoque#3
+        - key: dyn_illust_char_250_phatom_sale#4
           paddings:
             left: -120
             right: 150
-            top: 10
-            bottom: 0
-        - key: build_char_128_plosis
-          paddings:
-            left: -90
-            right: 100
-            top: 10
-            bottom: 0
-        - key: build_char_128_plosis_yun#4
-          paddings:
-            left: -90
-            right: 100
             top: 10
             bottom: 0
       voice:

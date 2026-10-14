@@ -381,5 +381,14 @@ window.wallpaperPropertyListener = {
                 })
             )
         }
+        if (properties.useAnimation) {
+            document.dispatchEvent(
+                Events.RegisterConfig.handler({
+                    target: 'player',
+                    key: 'animation-selection',
+                    value: properties.useAnimation.value,
+                })
+            )
+        }
     },
 }

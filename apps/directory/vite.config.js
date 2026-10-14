@@ -20,6 +20,9 @@ export default defineConfig(async () => {
                 '!': dataDir,
             },
         },
+        server: {
+            host: '0.0.0.0',
+        },
         build: {
             emptyOutDir: false,
             outDir: path.resolve(
