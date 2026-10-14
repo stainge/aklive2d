@@ -44,6 +44,9 @@ localization:
         ui_video_volume: Volume
         ui_misc_title: <hr><h4>💡 Misc</h4><hr>
         ui_voice_volume: Volume
+        ui_animation: Select Animation
+        ui_customAnimation_title: Use Custom Animation
+       
     zh-chs:
         ui_notice_title: <hr><h4>📝 通知</h4><hr>
         ui_notice_set_fps: <span><b>在设置中设定FPS目标</b></span>
@@ -88,6 +91,8 @@ localization:
         ui_video_volume: 音量
         ui_misc_title: <hr><h4>💡 杂项</h4><hr>
         ui_voice_volume: 音量
+        ui_animation: 动作选择
+        ui_customAnimation_title: 动作自定义
 properties:
     - key: notice_title
       value:
@@ -378,3 +383,20 @@ properties:
           text: ui_privacy_do_not_track
           type: bool
           value: true
+    - key: customAnimationtitle
+      value:
+          text: ui_customAnimation_title
+          type: bool
+          value: true          
+    - key: useAnimation
+      value:
+          text: ui_animation
+          condition: customAnimationtitle.value == true
+          type: combo
+          value: 'Idle'
+          options:
+                [
+                    { "label": "Idle", "value": "Idle" },
+                    { "label": "Interact", "value": "Interact" },
+                    { "label": "Special", "value": "Special" },
+                ]
