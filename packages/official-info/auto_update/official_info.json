@@ -1,5 +1,5 @@
 {
-    "length": 100,
+    "length": 101,
     "dates": [
         "2026-10",
         "2026-07",
@@ -42,6 +42,17 @@
         "2020-01"
     ],
     "info": [
+        {
+            "operatorName": "薇薇安娜",
+            "skinName": {
+                "zh-CN": "Ex-voto",
+                "en-US": "Viviana"
+            },
+            "type": "skin",
+            "link": "https://ak.hypergryph.com/archive/dynamicCompile/7773.html",
+            "id": 7773,
+            "date": "2026-10"
+        },
         {
             "operatorName": "塔露拉",
             "skinName": {
